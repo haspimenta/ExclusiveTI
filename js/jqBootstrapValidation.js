@@ -791,13 +791,13 @@
 				name: "Validemail",
 				type: "regex",
 				regex: "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\\.[A-Za-z]{2,4}",
-				message: "Not a valid email address<!-- data-validator-validemail-message to override -->"
+				message: "O email inserido não é valido!<!-- data-validator-validemail-message to override -->"
 			},
 			passwordagain: {
 				name: "Passwordagain",
 				type: "match",
 				match: "password",
-				message: "Does not match the given password<!-- data-validator-paswordagain-message to override -->"
+				message: "A senha inserida não conrreponde!<!-- data-validator-paswordagain-message to override -->"
 			},
 			positive: {
 				name: "Positive",
@@ -819,30 +819,30 @@
 				name: "Integer",
 				type: "regex",
 				regex: "[+-]?\\\d+",
-				message: "No decimal places allowed<!-- data-validator-integer-message to override -->"
+				message: "Não são permitidas casas decimais<!-- data-validator-integer-message to override -->"
 			},
 			positivenumber: {
 				name: "Positivenumber",
 				type: "min",
 				min: 0,
-				message: "Must be a positive number<!-- data-validator-positivenumber-message to override -->"
+				message: "Deve ser um número positivo<!-- data-validator-positivenumber-message to override -->"
 			},
 			negativenumber: {
 				name: "Negativenumber",
 				type: "max",
 				max: 0,
-				message: "Must be a negative number<!-- data-validator-negativenumber-message to override -->"
+				message: "Deve ser um número negativo<!-- data-validator-negativenumber-message to override -->"
 			},
 			required: {
 				name: "Required",
 				type: "required",
-				message: "This is required<!-- data-validator-required-message to override -->"
+				message: "Preenchimento necessário<!-- data-validator-required-message to override -->"
 			},
 			checkone: {
 				name: "Checkone",
 				type: "minchecked",
 				minchecked: 1,
-				message: "Check at least one option<!-- data-validation-checkone-message to override -->"
+				message: "Marque pelo menos uma opção<!-- data-validation-checkone-message to override -->"
 			}
 		}
 	};

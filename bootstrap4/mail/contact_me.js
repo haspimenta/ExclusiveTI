@@ -43,7 +43,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Nós desculpe " + firstName + ", não estamos conseguindo resposta do servidor de e-mail, tente mais tarde ou pode enviar diretamente pela sau caixa de correio para contato@exclusiveti.com.br!");
+                    $('#success > .alert-danger').append("<strong>Nós desculpe " + firstName + ", não estamos conseguindo resposta do servidor de e-mail, tente mais tarde ou pode enviar diretamente pela sua caixa de correio para contato@exclusiveti.com.br!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
